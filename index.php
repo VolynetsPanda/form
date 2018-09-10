@@ -4,7 +4,7 @@ $route = [
   "auth" => "./pages/auth.php",
 ];
 $page = @$_GET["page"];
-
+/*Hello*/
 require_once 'modules/header.php';
 
 if(empty($page)) require_once $route["auth"];
